@@ -1,0 +1,230 @@
+
+.lolo{
+  background-image: linear-gradient( 68.4deg,  rgba(99,251,215,1) -0.4%, rgba(5,222,250,1) 100.2% );
+
+}
+.btn-lg{
+    background-image: linear-gradient( to right,#D31027 0%,#EA384D 51%, #D31027 100%);
+    border-radius: 5%;
+}
+.navbar-brand{
+  padding-right: 40%;
+}
+
+.body2.0{
+    padding:20% 50%;
+}
+.container{
+    padding: 15% 25%;
+}
+.totoro_img{
+    width: 7%;
+}
+#footer{
+    padding: 1% 8%;
+    text-align: center;
+}
+.cute32{
+    width: 40%;
+}
+.footer-class{
+  background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% );
+  
+  }
+.footer-info{
+    display: flex;
+   
+   }
+   .fotter-login1{
+    color: aliceblue;
+    text-decoration: none;
+} 
+.footer-info div{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5rem;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+.about-us{
+    flex-grow: 2;
+    display: block;
+    text-decoration: none;
+    
+}
+.totoro1{
+    width: 20%;
+
+}
+p{
+    font-size: large;
+  font-weight: 200;
+  color:black
+}
+.no-gutters{
+
+}
+.footer_head{
+  color: white;
+}
+
+
+body{
+    background-image: -webkit-gradient(linear, left top, right top, from(#4e63d7), to(#76bfe9)) !important;
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% ); !important;
+        margin-top:20px;}
+    
+    /* ===== LOGIN PAGE ===== */
+    .login-box {
+      -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+              box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    
+    @media (min-width: 992px) {
+      .login-box {
+        margin: 40px 0;
+      }
+    }
+    
+    .login-box .form-wrap {
+      padding: 30px 25px;
+      border-radius: 10px;
+      -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+              box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    }
+    
+    @media (min-width: 768px) {
+      .login-box .form-wrap {
+        padding: 45px;
+      }
+    }
+    
+    @media (min-width: 992px) {
+      .login-box .form-wrap {
+        margin-top: -40px;
+        margin-bottom: -40px;
+        padding: 60px;
+      }
+    }
+    
+    .login-box .socials a {
+      -webkit-box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.12);
+              box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.12);
+    }
+    
+    .login-section {
+      position: relative;
+      z-index: 0;
+    }
+    
+    .login-section::after {
+      position: absolute;
+      content: '';
+      right: 0;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.15;
+      z-index: -1;
+      background-image: url(../img/shapes/login-wave2.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top right;
+      -webkit-animation-duration: 3s;
+              animation-duration: 3s;
+      -webkit-animation-direction: alternate;
+              animation-direction: alternate;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-name: pulse;
+              animation-name: pulse;
+    }
+    
+    .login-section::before {
+      position: absolute;
+      content: '';
+      opacity: 0.10;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background-image: url(../img/shapes/login-wave1.svg);
+      background-size: cover;
+      background-position: top right;
+      -webkit-animation-duration: 6s;
+              animation-duration: 6s;
+      -webkit-animation-direction: alternate;
+              animation-direction: alternate;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-name: pulse;
+              animation-name: pulse;
+    }
+    
+    .login-section .content {
+      padding: 45px;
+    }
+    
+    .form-group .zmdi {
+        position: absolute;
+        z-index: 1;
+        color: #fff;
+        background-color: #4e63d7;
+        border-radius: 5px;
+        height: 100%;
+        width: 45px;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 13px;
+    }
+    
+    .form-group input[type='text'], .form-group input[type='email'], .form-group input[type='password'] {
+        padding-left: 60px;
+    }
+
+    
+    .form-control {
+        border: 1px solid #e1e1e1;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-radius: 5px;
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+        background-color: #fff;
+        color: #858585;
+        font-weight: 400;
+        position: relative;
+    }
+    
+    
+    
+    
+    
+    
+    .login-box .socials a {
+        -webkit-box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.12);
+        box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.12);
+    }
+    .socials a {
+        width: 35px;
+        height: 35px;
+        background-color: #6893e1;
+        border-radius: 50%;
+        -webkit-box-shadow: 0 3px 2px 0 #516cd9;
+        box-shadow: 0 3px 2px 0 #516cd9;
+        text-align: center;
+        color: #fff;
+        padding-top: 10px;
+        font-size: 16px;
+        margin-right: 10px;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+        
+        
+        
